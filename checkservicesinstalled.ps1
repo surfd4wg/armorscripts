@@ -6,7 +6,7 @@ foreach($ServiceName in $Services)
 {
 	$Service = $ServiceName
     	$arrService = Get-Service -Name $ServiceName
-	if ($Service -eq- $null) {
+	if ($arrService -eq- $null) {
 		Write-Host $ServiceName is NOT Installed
 	} else {
 		Write-Host $ServiceName is Installed
