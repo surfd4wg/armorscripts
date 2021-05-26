@@ -7,3 +7,5 @@ note: Trend Micro Agent requires a reboot after installation
 
 
 # armorscripts for Linux bash shell
+
+armorstatus.sh - check status of armor sub-agents
